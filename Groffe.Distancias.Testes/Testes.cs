@@ -21,7 +21,7 @@ namespace Groffe.Distancias.Testes
         }
 
         // Método comentado para simulações com o Coverlet
-        /*[Theory]
+        [Theory]
         [InlineData(1.609, 1)]
         [InlineData(100, 62.15)]
         [InlineData(2091.7, 1300)]
@@ -34,6 +34,6 @@ namespace Groffe.Distancias.Testes
             ConversorDistancias.KmParaMilhas(Km)
                 .Should().Be(resultadoMilhas,
                     "* Possível problema de arredondamento na conversão para o Valor em Milhas *");
-        }*/
+        }
     }
 }
